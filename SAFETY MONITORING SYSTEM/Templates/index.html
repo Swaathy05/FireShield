@@ -1,0 +1,90 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FireShield AI - Manufacturing Safety</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">FireShield AI</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">How It Works</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>AI-Driven Manufacturing Safety</h1>
+            <p>Generate 3D models, detect defects, and enhance workplace safety.</p>
+            <div class="buttons">
+                <button id="generateModel">Generate 3D Model</button>
+                <button id="analyzeMachine">Analyze Machine for Defects</button>
+                <button id="analyzeBlueprints">Analyze Blueprints for Fire Hazards</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <h2>Our Features</h2>
+        <div class="feature-box">
+            <h3>🔥 Fire Hazard Detection</h3>
+            <p>Detect fire-prone zones and prevent accidents.</p>
+        </div>
+        <div class="feature-box">
+            <h3>🔍 Machinery Defect Analysis</h3>
+            <p>Identify mechanical faults using AI-driven scanning.</p>
+        </div>
+        <div class="feature-box">
+            <h3>📜 AI-Powered Safety Reports</h3>
+            <p>Receive automated safety reports for risk mitigation.</p>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <h2>How It Works</h2>
+        <div class="steps">
+            <div class="step">
+                <h3>Step 1</h3>
+                <p>Upload your machine blueprint or image.</p>
+                <button class="step-button">Upload Now</button>
+            </div>
+            <div class="step">
+                <h3>Step 2</h3>
+                <p>AI converts it into a detailed 3D model.</p>
+                <button class="step-button">Generate Model</button>
+            </div>
+            <div class="step">
+                <h3>Step 3</h3>
+                <p>Analyze defects and receive safety insights.</p>
+                <button class="step-button">Analyze Model</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <h2>Ensure Workplace Safety with AI</h2>
+        <p>Upload your blueprint and let AI generate safety reports instantly.</p>
+        <button>Try Now</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 FireShield AI. All rights reserved.</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
